@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+	int b = 1;
+	printf("这个数据的整形占%d个字节\n",sizeof(char));
+	printf("这个数据的整形占%d个字节\n", sizeof(int));
+	printf("这个数据的整形占%d个字节\n", sizeof("char"));
+	printf("这个数据的整形占%d个字节\n", sizeof(b));
+	return 0;
+
+}
+
+//sizeof的括号中不需要加双引号
